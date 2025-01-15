@@ -97,6 +97,8 @@ const items = [
     original_price: 1599,
     current_price: 639,
     discount_percentage: 60,
+      return_period: 14,
+    delivery_date: "10 Oct 2023",
     rating: {
       stars: 4.2,
       count: 388,
@@ -117,23 +119,23 @@ const items = [
       count: "5.2k",
     },
   },
+  // {
+  //   id: "009",
+  //   image: "images/9.jpg",
+  //   company: "J Style",
+  //   item_name: "Abstract Printed Cotton Stole",
+  //   original_price: 999,
+  //   current_price: 409,
+  //   discount_percentage: 59,
+  //   return_period: 14,
+  //   delivery_date: "10 Oct 2023",
+  //   rating: {
+  //     stars: 4.2,
+  //     count: "4.6k",
+  //   },
+  // },
   {
     id: "009",
-    image: "images/9.jpg",
-    company: "J Style",
-    item_name: "Abstract Printed Cotton Stole",
-    original_price: 999,
-    current_price: 409,
-    discount_percentage: 59,
-    return_period: 14,
-    delivery_date: "10 Oct 2023",
-    rating: {
-      stars: 4.2,
-      count: "4.6k",
-    },
-  },
-  {
-    id: "010",
     image: "images/10.jpg",
     company: "Roadster",
     item_name:
