@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "massage"
+git config --global user.name "sonu kumar"
+git config --global user.email "thecivilianstars@gmail.com"
+git commit -m "massage"
+git branch -M main
+git remote add origin https://github.com/0sonukumar1/-Template-Myntra-Functional-Clone.git
+git push -u origin main
