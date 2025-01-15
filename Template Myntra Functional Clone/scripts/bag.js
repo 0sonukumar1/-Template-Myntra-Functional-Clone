@@ -83,7 +83,7 @@ function generateHtmlItem(item) {
               <div class="item-name">${item.item_name}</div>
               <div class="price-container">
                 <span class="current-price">₹ ${item.current_price}</span>
-                <span class="original-price">MRP ₹<span  style='text-decoration: line-through'> ${item.original_price}</span></span>
+                <span class="original-price">MRP &nbsp <span  style='text-decoration: line-through'> ₹${item.original_price}</span></span>
                 <span class="discount-percentage" style='color: #ff905a;'>(${item.discount_percentage}% OFF)</span>
               </div>
               <div class="return-period">
